@@ -1,6 +1,5 @@
 import React from 'react';
 import Club from '../components/Club';
-import CommunityPerks from '../components/CommunityPerks';
 import CountDown from '../components/CountDown';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
@@ -10,7 +9,6 @@ import JoinSociety from '../components/JoinSociety';
 import Navbar from '../components/Navbar';
 import PreSale from '../components/PreSale';
 import Roadmap from '../components/Roadmap';
-import TheTeam from '../components/TheTeam';
 import WelcomeClub from '../components/WelcomeClub';
 
 const HomeScreen = () => {
@@ -25,8 +23,6 @@ const HomeScreen = () => {
       <WelcomeClub />
       <Roadmap />
       <Founder />
-      <CommunityPerks />
-      <TheTeam />
       <Faq />
       <Footer />
     </>

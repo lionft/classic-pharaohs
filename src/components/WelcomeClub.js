@@ -10,15 +10,16 @@ const WelcomeClub = () => {
       <div className='WelcomeClub' id='why-crypto-rats' style={{}}>
         <div className='px-5 pb-12 WelcomeClub__inner Main__Margin md:pb-16 lg:px-4'>
           <h2 className='text-3xl md:text-5xl text-left font-bold mb-4 undefined'>
-            Why Crypto Rats?
+            Why Classic Pharaohs?
           </h2>
           <p className='text-base mb-4 md:mb-8 font-thin  md:text-left md:text-xl'>
-            When you mint a Crypto Rat you are not minting just another NFT, you
-            are gaining access to a secret society with endless possibilities!
-            Your Crypto Rat will serve as your membership card to the secret
-            society club. With This membership card you will have access to
-            private events, additional digital collectibles , access to earn
-            crypto and more. Don’t get left out, soon the secret will be out.
+            Classic Pharaohs are a collection of 5,000 unique and different NFTS
+            that are inspired by ancient Egypt. The Pharaohs are built on the
+            Ethereum Classic blockchain and they're one of the first ever unique
+            NFTS on the blockchain. Classic Pharaohs is also the first NFT
+            project on $ETC that is donating a portion of the proceeds to
+            Charity that was chosen by the $ETC community. Don't be hesitant and
+            mint your Pharaohs now!!
           </p>
           <div className='WelcomeClub__images'>
             <div

@@ -31,10 +31,16 @@ const Footer = () => {
           </div>
           <div className='w-full lg:w-1/2 mt-8 lg:mt-0 grid justify-items-start lg:justify-items-end'>
             <div className='pb-8 grid justify-items-start lg:justify-items-end'>
-              <a href='#.' className='text-lg accent mb-4 underline'>
+              <a
+                href='#.'
+                className='text-lg accent mb-4 underline text-green-600'
+              >
                 Terms &amp; Conditions
               </a>
-              <a href='/' className='text-lg accent mb-4 underline'>
+              <a
+                href='/'
+                className='text-lg accent mb-4 underline text-green-600'
+              >
                 Privacy Policy
               </a>
             </div>

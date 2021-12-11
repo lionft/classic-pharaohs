@@ -1,9 +1,5 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
-import discord from '../assets/images/icons/discord.svg';
-import twitter from '../assets/images/icons/twitter.svg';
-import instagram from '../assets/images/icons/instagram.svg';
-import tiktok from '../assets/images/icons/tiktok.svg';
 
 const Navbar = () => {
   return (
@@ -36,37 +32,20 @@ const Navbar = () => {
           </button>
           <div className='Navbar__links'>
             <div className='Navbar__menu-links mr-8'>
-              <a className='Navbar__menu-link uppercase' href='#pre-sale'>
-                Pre-sale
-              </a>
               <a
                 className='Navbar__menu-link uppercase'
                 href='#why-crypto-rats'
               >
-                Why Crypto Rats
+                Why Classic Pharaohs?
               </a>
               <a className='Navbar__menu-link uppercase' href='#roadmap'>
                 Roadmap
               </a>
-              <a className='Navbar__menu-link uppercase' href='#team'>
-                Team
+              <a className='Navbar__menu-link uppercase' href='#founder'>
+                Founder
               </a>
               <a className='Navbar__menu-link uppercase' href='#faq'>
                 Faq
-              </a>
-            </div>
-            <div className='Navbar__social-links'>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6 mr-4' src={discord} />
-              </a>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6 mr-4' src={twitter} />
-              </a>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6 mr-4' src={instagram} />
-              </a>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6' src={tiktok} />
               </a>
             </div>
           </div>
