@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className='w-full lg:w-1/2 mt-8 lg:mt-0 grid justify-items-start lg:justify-items-end'>
             <div className='pb-8 grid justify-items-start lg:justify-items-end'>
-              <a href='#' className='text-lg accent mb-4 underline'>
+              <a href='#.' className='text-lg accent mb-4 underline'>
                 Terms &amp; Conditions
               </a>
               <a href='/' className='text-lg accent mb-4 underline'>
@@ -39,13 +39,13 @@ const Footer = () => {
               </a>
             </div>
             <div className='flex flex-row'>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={discord} />
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={twitter} />
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={instagram} />
               </a>
             </div>

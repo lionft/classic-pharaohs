@@ -17,7 +17,7 @@ const PreSale = () => {
             </li>
           </ol>
           <a
-            href='#'
+            href='#.'
             target='_blank'
             rel='noreferrer'
             className='PreSale__button w-full block text-center px-8 py-4 mb-5 rounded text-xl font-light'
@@ -26,7 +26,7 @@ const PreSale = () => {
           </a>
           <p className='text-xs md:text-base gray-100 font-thin  gray-100 text-center  md:px-8'>
             Once all the steps are completed log, into our{' '}
-            <a href='#' target='_blank' rel='noreferrer' className='underline'>
+            <a href='#.' target='_blank' rel='noreferrer' className='underline'>
               discord community
             </a>
             . Go to the channel invite-tracker and type "!invites". As soon as

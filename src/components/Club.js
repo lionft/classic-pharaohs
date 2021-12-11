@@ -19,7 +19,10 @@ const Club = () => {
                 visibility: 'inherit',
               }}
             >
-              <a href='#' className='flex flex-col justify-center items-center'>
+              <a
+                href='#.'
+                className='flex flex-col justify-center items-center'
+              >
                 <img className='w-4/5' src={clubImage} alt='' />
                 <p className='mt-3 md:mt-4 text-center font-light text-sm md:text-lg'>
                   Ratzlits
@@ -34,7 +37,10 @@ const Club = () => {
                 visibility: 'inherit',
               }}
             >
-              <a href='#' className='flex flex-col justify-center items-center'>
+              <a
+                href='#.'
+                className='flex flex-col justify-center items-center'
+              >
                 <img className='w-4/5' src={clubImage} alt='' />
                 <p className='mt-3 md:mt-4 text-center font-light text-sm md:text-lg'>
                   Zedserbians
@@ -49,7 +55,10 @@ const Club = () => {
                 visibility: 'inherit',
               }}
             >
-              <a href='#' className='flex flex-col justify-center items-center'>
+              <a
+                href='#.'
+                className='flex flex-col justify-center items-center'
+              >
                 <img className='w-4/5' src={clubImage} alt='' />
                 <p className='mt-3 md:mt-4 text-center font-light text-sm md:text-lg'>
                   Cripplons
@@ -64,7 +73,10 @@ const Club = () => {
                 visibility: 'inherit',
               }}
             >
-              <a href='#' className='flex flex-col justify-center items-center'>
+              <a
+                href='#.'
+                className='flex flex-col justify-center items-center'
+              >
                 <img className='w-4/5' src={clubImage} alt='' />
                 <p className='mt-3 md:mt-4 text-center font-light text-sm md:text-lg'>
                   Nakamotants

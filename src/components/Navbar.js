@@ -56,16 +56,16 @@ const Navbar = () => {
               </a>
             </div>
             <div className='Navbar__social-links'>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={discord} />
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={twitter} />
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6 mr-4' src={instagram} />
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a href='#.' target='_blank' rel='noreferrer'>
                 <img alt='' className='w-6 h-6' src={tiktok} />
               </a>
             </div>

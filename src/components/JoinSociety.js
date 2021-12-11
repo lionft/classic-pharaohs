@@ -13,7 +13,7 @@ const JoinSociety = () => {
           </h3>
           <div className='JoinSociety__socials mt-4 md:mt-12'>
             <a
-              href='#'
+              href='#.'
               target='_blank'
               rel='noreferrer'
               className='JoinSociety__social header-bg rounded-xl px-0 py-6 md:py-11'
@@ -27,7 +27,7 @@ const JoinSociety = () => {
               </div>
             </a>
             <a
-              href='#'
+              href='#.'
               target='_blank'
               rel='noreferrer'
               className='JoinSociety__social header-bg rounded-xl px-0 py-6 md:py-11'
@@ -41,7 +41,7 @@ const JoinSociety = () => {
               </div>
             </a>
             <a
-              href='#'
+              href='#.'
               target='_blank'
               rel='noreferrer'
               className='JoinSociety__social header-bg rounded-xl px-0 py-6 md:py-11'

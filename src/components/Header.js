@@ -33,7 +33,7 @@ const Header = () => {
           <div className='Landing__hero-video'></div>
 
           <a
-            href='#'
+            href='#.'
             target='_blank'
             rel='noreferrer'
             className='Landing__hero-button text-sm md:text-xl font-light text-center px-2 py-4 md:px-8 md:py-6 rounded uppercase'
