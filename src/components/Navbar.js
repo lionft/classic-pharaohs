@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.jpg';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
             className='Navbar__logo'
             style={{ transform: 'translate(0px, 0px)', opacity: 1 }}
           >
-            <a href='/'>
+            <a href='#header'>
               <img src={logo} alt='crypto-rat logo' />
             </a>
           </div>

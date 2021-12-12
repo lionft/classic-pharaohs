@@ -5,7 +5,11 @@ import headerImage2 from '../assets/images/header-2.jpg';
 const Header = () => {
   return (
     <>
-      <header className='Landing__hero Main__Margin px-5 lg:px-4' style={{}}>
+      <header
+        className='Landing__hero Main__Margin px-5 lg:px-4'
+        id='header'
+        style={{}}
+      >
         <div className='Landing__hero-inner'>
           <div className='Landing__hero-video'>
             <img src={headerImage} alt='' />

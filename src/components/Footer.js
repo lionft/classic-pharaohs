@@ -27,7 +27,9 @@ const Footer = () => {
               </form>
               <div className='py-2 text-left' />
             </div>
-            <p className='text-lg mb-2 opacity-40	mt-8'>© 2021 Crypto Rats</p>
+            <p className='text-lg mb-2 opacity-40	mt-8'>
+              © 2021 Classic Pharaohs
+            </p>
           </div>
           <div className='w-full lg:w-1/2 mt-8 lg:mt-0 grid justify-items-start lg:justify-items-end'>
             <div className='pb-8 grid justify-items-start lg:justify-items-end'>

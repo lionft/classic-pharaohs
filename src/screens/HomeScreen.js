@@ -1,5 +1,4 @@
 import React from 'react';
-import Club from '../components/Club';
 import CountDown from '../components/CountDown';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
@@ -17,7 +16,6 @@ const HomeScreen = () => {
       <Navbar />
       <Header />
       <CountDown />
-      <Club />
       <JoinSociety />
       <PreSale />
       <WelcomeClub />
