@@ -42,7 +42,7 @@ const Header = () => {
             rel='noreferrer'
             className='Landing__hero-button text-sm md:text-xl font-light text-center px-2 py-4 md:px-8 md:py-6 rounded uppercase'
           >
-            Join The Discord
+            Join The Telegram
           </a>
         </div>
       </header>
