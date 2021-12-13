@@ -9,11 +9,17 @@ const PreSale = () => {
             How to mint your Pharaohs
           </h2>
           <ol className='mb-8'>
-            <li className='text-xl font-thin md:text-2xl mb-4 gray-100'>
+            <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
               1. Connect your MetaMask wallet
-            </li>{' '}
-            <li className='text-xl font-thin md:text-2xl gray-100'>
+            </li>
+            <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
               2. Invite at least 5 friends to our telegram community.
+            </li>
+            <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
+              3. Choose mint amount
+            </li>
+            <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
+              4. Confirm
             </li>
           </ol>
         </div>
