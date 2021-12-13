@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/images/logo.jpg';
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+
+  const mobileNav = () => {
+    setShowNav(!showNav);
+    console.log('1');
+  };
   return (
     <>
       <nav className='Navbar' style={{}}>
-        <div className='px-5 Navbar__inner Main__Margin lg:px-4'>
+        <div className='px-5 Navbar__inner Main__Margin lg:px-4 relative'>
           <div
             className='Navbar__logo'
             style={{ transform: 'translate(0px, 0px)', opacity: 1 }}
@@ -14,27 +20,34 @@ const Navbar = () => {
               <img src={logo} alt='crypto-rat logo' />
             </a>
           </div>
-          <button className='Navbar__menuIcon' aria-label='Menu'>
-            <svg
-              width={24}
-              height={24}
-              fill='none'
-              xmlns='http://www.w3.org/2000/svg'
-            >
-              <path
-                d='M3 12h18M3 6h18M3 18h18'
-                stroke='#fff'
-                strokeWidth={2}
-                strokeLinecap='round'
-                strokeLinejoin='round'
-              />
-            </svg>
-          </button>
+
           <div className='Navbar__links'>
-            <div className='Navbar__menu-links mr-8'>
+            <button className='lg:hidden' aria-label='Menu' onClick={mobileNav}>
+              <svg
+                width={24}
+                height={24}
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M3 12h18M3 6h18M3 18h18'
+                  stroke='#fff'
+                  strokeWidth={2}
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                />
+              </svg>
+            </button>
+            <div
+              className={`Navbar__menu-links mr-8 lg:flex flex flex-wrap ${
+                showNav
+                  ? 'flex-col absolute w-full mobile__bg p-5 gap-5 top-16 left-0 m-0'
+                  : 'hidden'
+              } `}
+            >
               <a
                 className='Navbar__menu-link uppercase'
-                href='#why-crypto-rats'
+                href='#why-classic-pharaohs'
               >
                 Why Classic Pharaohs?
               </a>

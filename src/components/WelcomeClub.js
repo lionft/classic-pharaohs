@@ -1,13 +1,13 @@
 import React from 'react';
-import welcomeImage from '../assets/images/welcome-club-1.png';
-import welcomeImage2 from '../assets/images/welcome-club-2.png';
-import welcomeImage3 from '../assets/images/welcome-club-3.png';
-import welcomeImage4 from '../assets/images/welcome-club-4.png';
+import welcomeImage from '../assets/images/slider/15.png';
+import welcomeImage2 from '../assets/images/slider/16.png';
+import welcomeImage3 from '../assets/images/slider/13.png';
+import welcomeImage4 from '../assets/images/slider/14.png';
 
 const WelcomeClub = () => {
   return (
     <>
-      <div className='WelcomeClub' id='why-crypto-rats' style={{}}>
+      <div className='WelcomeClub' id='why-classic-pharaohs' style={{}}>
         <div className='px-5 pb-12 WelcomeClub__inner Main__Margin md:pb-16 lg:px-4'>
           <h2 className='text-3xl md:text-5xl text-left font-bold mb-4 undefined'>
             Why Classic Pharaohs?
@@ -21,46 +21,18 @@ const WelcomeClub = () => {
             Charity that was chosen by the $ETC community. Don't be hesitant and
             mint your Pharaohs now!!
           </p>
-          <div className='WelcomeClub__images'>
-            <div
-              className='WelcomeClub__image'
-              style={{
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-                visibility: 'inherit',
-              }}
-            >
-              <img src={welcomeImage} alt='' />
+          <div className='flex gap-2 justify-between'>
+            <div className=''>
+              <img src={welcomeImage} alt='' className='' />
             </div>
-            <div
-              className='WelcomeClub__image'
-              style={{
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-                visibility: 'inherit',
-              }}
-            >
-              <img src={welcomeImage2} alt='' />
+            <div className=''>
+              <img src={welcomeImage2} alt='' className='' />
             </div>
-            <div
-              className='WelcomeClub__image'
-              style={{
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-                visibility: 'inherit',
-              }}
-            >
-              <img src={welcomeImage3} alt='' />
+            <div className=''>
+              <img src={welcomeImage3} alt='' className='' />
             </div>
-            <div
-              className='WelcomeClub__image'
-              style={{
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-                visibility: 'inherit',
-              }}
-            >
-              <img src={welcomeImage4} alt='' />
+            <div className=''>
+              <img src={welcomeImage4} alt='' className='' />
             </div>
           </div>
         </div>

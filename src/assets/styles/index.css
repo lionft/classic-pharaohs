@@ -185,36 +185,9 @@ body {
   height: 100%;
   object-fit: contain;
 }
-.Navbar__links {
-  display: none;
+.mobile__bg {
+  background: #070707;
 }
-
-.MobileNavbar {
-  width: 100%;
-  height: calc(100vh - 60px);
-  z-index: 5000;
-  background-color: var(--primary);
-}
-.MobileNavbar__links {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  z-index: 10;
-  margin: auto;
-  padding-top: 4rem;
-  padding-bottom: 8rem;
-  text-align: center;
-}
-.MobileNavbar__menuLink {
-  font-size: 16px;
-  margin-bottom: 24px;
-}
-.MobileNavbar__social-links {
-  display: flex;
-  justify-content: center;
-}
-
 .Landing__hero {
   width: 100%;
   margin-bottom: 32px;
@@ -417,10 +390,6 @@ body {
 @media (min-width: 769px) {
   .Navbar__logo {
     width: 200px;
-  }
-
-  .Navbar__menuIcon {
-    display: none;
   }
 
   .Navbar__links,
