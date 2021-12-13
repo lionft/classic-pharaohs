@@ -1,7 +1,6 @@
 import React from 'react';
-import discord from '../assets/images/icons/discord.svg';
 import twitter from '../assets/images/icons/twitter.svg';
-import instagram from '../assets/images/icons/instagram.svg';
+import telegram from '../assets/images/icons/telegram-bg.svg';
 const Footer = () => {
   return (
     <>
@@ -46,14 +45,19 @@ const Footer = () => {
               </a>
             </div> */}
             <div className='flex flex-row'>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6 mr-4' src={discord} />
-              </a>
-              <a href='#.' target='_blank' rel='noreferrer'>
+              <a
+                href='https://twitter.com/classicpharaohs'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img alt='' className='w-6 h-6 mr-4' src={twitter} />
               </a>
-              <a href='#.' target='_blank' rel='noreferrer'>
-                <img alt='' className='w-6 h-6 mr-4' src={instagram} />
+              <a
+                href='https://t.me/+XgP0WrkX5JQ2NjRh'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img alt='' className='w-6 h-6 mr-4' src={telegram} />
               </a>
             </div>
           </div>

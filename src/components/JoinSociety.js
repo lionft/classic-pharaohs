@@ -12,7 +12,7 @@ const JoinSociety = () => {
           </h3>
           <div className='JoinSociety__socials mt-4 md:mt-12'>
             <a
-              href='#.'
+              href='https://twitter.com/classicpharaohs'
               target='_blank'
               rel='noreferrer'
               className='JoinSociety__social header-bg rounded-xl px-0 py-6 md:py-11'
@@ -27,7 +27,7 @@ const JoinSociety = () => {
             </a>
 
             <a
-              href='#.'
+              href='https://t.me/+XgP0WrkX5JQ2NjRh'
               target='_blank'
               rel='noreferrer'
               className='JoinSociety__social header-bg rounded-xl px-0 py-6 md:py-11'

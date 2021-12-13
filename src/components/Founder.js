@@ -26,15 +26,30 @@ const Founder = () => {
                   interest in Softwae, you can follow his social links below.
                 </p>
                 <div className='social__links flex justify-between'>
-                  <a href='#.' className='w-12'>
+                  <a
+                    href='http://www.twitter.com/ali22essa'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='w-12'
+                  >
                     <img src={twitter} alt='' />
                   </a>
 
-                  <a href='#.' className='w-12'>
+                  <a
+                    href='http://www.instagram.com/alii.essa'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='w-12'
+                  >
                     <img src={instagram} alt='' />
                   </a>
 
-                  <a href='#.' className='w-12'>
+                  <a
+                    href='#.'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='w-12'
+                  >
                     <img src={linkedin} alt='' />
                   </a>
                 </div>
