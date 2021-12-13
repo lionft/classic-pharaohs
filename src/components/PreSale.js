@@ -13,7 +13,7 @@ const PreSale = () => {
               1. Connect your MetaMask wallet
             </li>
             <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
-              2. Invite at least 5 friends to our telegram community.
+              2. Choose ETC network
             </li>
             <li className='text-xl font-thin md:text-2xl gray-100 mb-2'>
               3. Choose mint amount
