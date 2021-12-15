@@ -5,52 +5,49 @@ import { fetchData } from '../redux/data/dataActions';
 import headerImage from '../assets/images/header.jpg';
 import headerImage2 from '../assets/images/header-2.jpg';
 
-const Header = () => {
-  const dispatch = useDispatch();
-  const blockchain = useSelector((state) => state.blockchain);
-  const data = useSelector((state) => state.data);
-  const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
-  const [mintAmount, setMintAmount] = useState(1);
-  const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: '',
-    SCAN_LINK: '',
-    NETWORK: {
-      NAME: '',
-      SYMBOL: '',
-      ID: 0,
-    },
-    NFT_NAME: '',
-    SYMBOL: '',
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
-    MARKETPLACE: '',
-    MARKETPLACE_LINK: '',
-    SHOW_BACKGROUND: false,
-  });
+const claimNFTs = () => {
+    let WalletAddress = blockchain.account;
+    WalletAddress = WalletAddress.toUpperCase();
 
-  const claimNFTs = () => {
+    let TheOwnerAddress = CONFIG.OWNER_ADDRESS;
+    TheOwnerAddress = TheOwnerAddress.toUpperCase();
+
+    if (WalletAddress==TheOwnerAddress) {
+      CONFIG.WEI_COST=0;
+
+    } else if  
+    
+      (data.totalSupply > 1 && data.totalSupply < 1200  ) 
+        CONFIG.WEI_COST=CONFIG.COST1;
+       
+    else if 
+    (data.totalSupply > 1200 && data.totalSupply < 2999 ) 
+        CONFIG.WEI_COST=CONFIG.WEI_COST;
+       
+
+
     let cost = CONFIG.WEI_COST;
+  
+    let cost1 = CONFIG.COST1;
+    let cost2 = CONFIG.COST2;
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
     let totalGasLimit = String(gasLimit * mintAmount);
-    console.log('Cost: ', totalCostWei);
-    console.log('Gas limit: ', totalGasLimit);
+    console.log("Cost: ", totalCostWei);
+    console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
-      .mint(CONFIG.CONTRACT_ADDRESS, mintAmount)
+      .mint(mintAmount)
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
       })
-      .once('error', (err) => {
+      .once("error", (err) => {
         console.log(err);
-        setFeedback('Sorry, something went wrong please try again later.');
+        setFeedback("Sorry, something went wrong please try again later.");
         setClaimingNft(false);
       })
       .then((receipt) => {
